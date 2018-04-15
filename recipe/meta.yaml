@@ -1,4 +1,4 @@
-{% set version = "1.0.19" %}
+{% set version = "1.0.21" %}
 
 package:
   name: ipaddress
@@ -6,12 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/ipaddress/ipaddress-{{ version }}.tar.gz
-  sha256: 200d8686011d470b5e4de207d803445deee427455cd0cb7c982b68cf82524f81
+  sha256: 82c964e8a387f3869774c9fd3ed7bf19f0e001de58f0f52fc17257b6bc5f515d
 
 build:
   number: 0
   noarch: python
-  skip: true  # [py>=33]
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
