@@ -1,4 +1,4 @@
-{% set version = "1.0.21" %}
+{% set version = "1.0.22" %}
 
 package:
   name: ipaddress
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/ipaddress/ipaddress-{{ version }}.tar.gz
-  sha256: 82c964e8a387f3869774c9fd3ed7bf19f0e001de58f0f52fc17257b6bc5f515d
+  sha256: b146c751ea45cad6188dd6cf2d9b757f6f4f8d6ffb96a023e6f2e26eea02a72c
 
 build:
   number: 0
