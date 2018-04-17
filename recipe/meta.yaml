@@ -15,7 +15,7 @@ build:
 
 requirements:
   build:
-    - python
+    - python <=3.3
     - pip
   run:
     - python <=3.3
