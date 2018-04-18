@@ -14,12 +14,15 @@ Summary: IPv4/IPv6 manipulation library
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/ipaddress-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ipaddress-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/ipaddress-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/ipaddress-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipaddress/badges/version.svg)](https://anaconda.org/conda-forge/ipaddress)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipaddress/badges/downloads.svg)](https://anaconda.org/conda-forge/ipaddress)
+
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ipaddress.svg)](https://anaconda.org/conda-forge/ipaddress)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/ipaddress.svg)](https://anaconda.org/conda-forge/ipaddress)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ipaddress.svg)](https://anaconda.org/conda-forge/ipaddress)
 
 Installing ipaddress
 ====================
